@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -18,9 +18,18 @@ while(low<=high){
   }
 }
 cout<<ans;
+
+
+
 return 0;
 }
 
 //C++  STL
 //In terms of Vectors
 //upper_bound(arr.begin(),arr.end(),target)-arr.begin();
+
+// Important Example->
+// vector<int>v={1,2,4,5,6,8,23};
+// int target=24;
+// int l=lower_bound(v.begin(),v.end(),target)-v.begin();
+// cout<<l;
